@@ -7,7 +7,6 @@
 # - [2, 3, 5, 6] => [12, 15]
 
 
-# Вариант 1
 def m_list(list):
     x = len(list) // 2 + 1 if len(list) % 2 != 0 else len(list) // 2 
     new_lst = [
